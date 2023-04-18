@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(7, 1, 31);
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+}
+.header {
+    text-align: center;
+    font-size: 22px;
+    border-bottom: solid;
+    border-color: #002fff ;
+    height: 70px;
+
+
+}
+.sobreMimDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.sobreMimH1 {
+    text-align: center;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(163deg, #0066ff 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    margin-right: 100px;
+   }
+   
+   .card2 {
+    width: 300px;
+    height: 300px;
+    background-color: #1a1a1a;
+    border-radius:20px;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 140, 255, 0.315);
+   }
+   .fotoPerfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+    
+   }
+.sobreMimP{
+    width: 500px;
+    font-size: 22px;
+    text-align: center;
+}
+.habilidadesTexto {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 250px;
+}
+.textoInicio {
+    margin-left: 100px;
+    font-size: 30px;
+    line-height: 25px;
+    text-align: start;
+    margin-top: 50px;
+}
+.matheus {
+    color: #0066ff;
+}
+.desenvolvedor {
+    color: rgb(39, 37, 37);
+    font-size: 18px;
+}
+.sobreMimDiv2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.habilidadeImagem {
+    width: 100px;
+    height: 100px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+     
+}
+.containerHabilidades {
+    display: flex;
+    justify-content: center;
+    position:relative;
+}
+.containerHab {
+    position:relative;
+}
+.habilidade {
+    margin: 10px;
+}
+.meio {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.containerHab:hover .habilidadeImagem {
+    opacity: 0.3;
+}
+.containerHab:hover .meio {
+    opacity: 1;
+}
+.textoMeio {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+
+}
+.projetosTitulo {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+}
